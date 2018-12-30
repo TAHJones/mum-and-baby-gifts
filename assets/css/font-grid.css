@@ -1,0 +1,163 @@
+
+/* -----------------------------------
+small
+----------------------------------- */
+@media (min-width:100px)
+{
+	h1.banner-text { font-size: 80%;}
+	h3.contact {font-size: 30%;}
+	ul.contact li {font-size: 40%;}
+	.intro-text {font-size: 60%;}
+	.aboutmumandbabygifts p {font-size: 30%;}
+	.footer-text {font-size: 60%;}
+}
+
+@media (min-width:200px)
+{
+	h1.banner-text { font-size: 90%;}
+	h3.contact {font-size: 35%;}
+	ul.contact li {font-size: 45%;}
+	/*.intro-text {font-size: 70%;}*/
+	.aboutmumandbabygifts p {font-size: 35%;}
+}
+
+@media (min-width:220px)
+{
+	h1.banner-text { font-size: 100%;}
+	h3.contact {font-size: 40%;}
+	ul.contact li {font-size: 50%;}
+	/*.intro-text {font-size: 80%;}*/
+	.aboutmumandbabygifts p {font-size: 40%;}
+}
+
+@media (min-width:240px)
+{
+	h1.banner-text { font-size: 110%;}
+	h3.contact {font-size: 45%;}
+	ul.contact li {font-size: 55%;}
+	/*.intro-text {font-size: 90%;}*/
+	.aboutmumandbabygifts p {font-size: 45%;}
+}
+
+@media (min-width:260px)
+{
+	h1.banner-text { font-size: 120%;}
+	h3.contact {font-size: 50%;}
+	ul.contact li {font-size: 60%;}
+	/*.intro-text {font-size: 90%;}*/
+	.aboutmumandbabygifts p {font-size: 50%;}
+	.footer-text {font-size: 80%;}
+
+}
+
+@media (min-width:280px)
+{
+	h1.banner-text { font-size: 140%;}
+	h3.contact {font-size: 60%;}
+	ul.contact li {font-size: 70%;}
+	/*.intro-text {font-size: 100%;}*/
+	.aboutmumandbabygifts p {font-size: 60%;}
+}
+
+
+@media (min-width:300px)
+{
+	h1.banner-text { font-size: 160%;}
+	h3.contact {font-size: 70%;}
+	ul.contact li {font-size: 80%;}
+	/*.intro-text {font-size: 110%;}*/
+	.aboutmumandbabygifts p {font-size: 70%;}
+}
+
+@media (min-width:350px)
+{
+	h1.banner-text { font-size: 160%;}
+	h3.contact {font-size: 80%;}
+	ul.contact li {font-size: 90%;}
+	/*.intro-text {font-size: 120%;}*/
+	.aboutmumandbabygifts p {font-size: 80%;}
+	.footer-text {font-size: 100%;}
+}
+
+
+/* -----------------------------------
+medium
+----------------------------------- */
+
+@media (min-width:400px)
+{
+	h1.banner-text { font-size: 180%;}
+	h3.contact {font-size: 90%;}
+	ul.contact li {font-size: 100%;}
+	.intro-text {font-size: 160%;}
+	.aboutmumandbabygifts p {font-size: 90%;}
+}
+
+@media (min-width:450px)
+{
+	h1.banner-text { font-size: 200%;}
+	h3.contact {font-size: 100%;}
+	/*.intro-text {font-size: 180%;}*/
+	.aboutmumandbabygifts p {font-size: 100%;}
+}
+
+
+@media (min-width:500px)
+{
+	h1.banner-text { font-size: 220%;}
+	/*.intro-text {font-size: 200%;}*/
+}
+
+@media (min-width: 550px)
+{
+	h1.banner-text { font-size: 240%;}
+	/*.intro-text {font-size: 220%;}*/
+
+}
+
+@media (min-width:600px)
+{
+	h1.banner-text { font-size: 260%;}
+	/*.intro-text {font-size: 240%;}*/
+
+}
+
+@media (min-width:650px)
+{
+	h1.banner-text { font-size: 280%;}
+	.intro-text {font-size: 306%;}
+}
+
+
+/* -----------------------------------
+large
+----------------------------------- */
+
+@media (min-width:700px)
+{
+	h1.banner-text { font-size: 300%;}
+	.intro-text {font-size: 320%%;}
+}
+
+@media (min-width:800px)
+{
+	h1.banner-text { font-size: 350%;}
+	/*.intro-text {font-size: 340%;}*/
+}
+
+
+@media (min-width:900px)
+{
+	h1.banner-text { font-size: 400%;}
+}
+
+@media (min-width:1000px)
+{
+	h1.banner-text { font-size: 450%;}
+}
+
+
+@media (min-width:1100px)
+{
+	h1.banner-text { font-size: 500%;}
+}

@@ -1,0 +1,336 @@
+/* -----------------------------------
+containers
+----------------------------------- */
+
+.container,
+.container-narrow {
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.container-large {
+	margin: 0 auto;
+	padding: 0 2.33333em;
+}
+
+.container {
+	max-width: 44em;
+}
+
+.container-narrow {
+	max-width: 33em;
+}
+
+.container-large {
+	max-width: 53.33333em;
+}
+
+/* 960px / 18px */
+
+/* -----------------------------------
+rows
+----------------------------------- */
+
+/* row-padding */
+
+.row-padding-small {
+	padding: 1em 0;
+}
+
+.row-padding,
+.row-padding-large {
+	padding: 2em 0;
+}
+
+/* row-colors */
+
+.row-white {
+	background: linear-gradient(to left, #8c598e, transparent 50%),
+	linear-gradient(45deg, #fff, transparent 70%),
+	url(../img/pink_pattern.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.row-gray {
+	background: #dedede;
+}
+
+.row-black {
+	color: #fff;
+	background: #1e1e1e;
+}
+
+
+/* row-banner */
+
+.row-banner {
+	max-width: 100%;
+	background: linear-gradient(200deg, #8c598e, transparent 30%),
+	linear-gradient(135deg, #fff, transparent 90%),
+	url(../img/pink_pattern.jpg) no-repeat center;
+	background-size: cover;
+	background-position: center;
+}
+
+/*row-height*/
+
+@media (min-width:830px) {
+	.row-height {
+		height: 365px;
+	}
+}
+
+/* -----------------------------------
+text
+----------------------------------- */
+
+.intro-text,
+.footer-text {
+	margin: 0;
+	font-weight: normal;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+.banner-text {
+	color: #fff;
+	font-size: 2em;
+	text-shadow: 3px 6px 6px #222;
+}
+
+.banner-text {
+	font-size: 1.8em;
+	line-height: 1.2;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 5% 0;
+	width: 100%;
+}
+
+
+span.title {
+	color: #e914ef;
+}
+
+.intro-text {
+	text-align: center;
+	line-height: 1.8;
+}
+
+/* -----------------------------------
+contact
+----------------------------------- */
+
+h3.contact {
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+img.contact {
+	display: none;
+}
+
+ul.contact {
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.contact li {
+	max-width: 80%;
+	list-style: none;
+	margin: 7% 0;
+	padding: 5%;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #8c598e;
+	border-radius: 20px;
+	background: linear-gradient(to left, #8c598e, transparent 120%),
+	linear-gradient(90deg, #B00DAF, transparent 40%),
+	#fff;
+}
+
+.contact li:last-child {
+	margin-bottom: 0;
+}
+
+.hide {
+	display: none;
+}
+
+
+
+/* -----------------------------------
+row and text medium
+----------------------------------- */
+
+@media (min-width: 26.66666em) {
+	.row-padding {
+		padding: 2.5em 0;
+	}
+	.row-padding-large {
+		padding: 3.33333em 0;
+	}
+	.intro-text,
+	.footer-text {
+		text-align: center;
+	}
+
+	img.contact {
+		box-sizing: border-box;
+		list-style: outside none none;
+		margin: 6% 0 0 20%;
+		width: 40%;
+	}
+
+	ul.contact li {
+		font-size: 0.66666em;
+	}
+
+	.banner-text {
+		box-sizing: border-box;
+		line-height: 1.1;
+		margin: 4% auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.header-image {
+		border: 6px solid #E914EF;
+		box-sizing: border-box;
+		width: 60%;
+		margin: 10% 16% 0;
+		border-radius: 50px 10px 50px 10px;
+	}
+
+}
+
+
+@media (min-width: 30em) {
+	.row-padding {
+		padding: 2.5em 0;
+	}
+	.row-padding-large {
+		padding: 3.33333em 0;
+	}
+	.intro-text,
+	.footer-text {
+		text-align: center;
+	}
+
+	img.contact {
+		display: block;
+		box-sizing: border-box;
+		list-style: outside none none;
+		margin: 4% auto;
+		width: 60%;
+	}
+
+	.banner-text {
+		box-sizing: border-box;
+		font-size: 2.4em;
+		line-height: 1.2;
+		margin: 4% auto;
+		width: 80%;
+	}
+
+	.show-30em {
+		display: block;
+	}
+
+	.hide-30em {
+		display: none;
+	}
+
+
+}
+
+@media (min-width: 40em) {
+
+	ul.contact li {
+		font-size: 1.25em;
+		max-width: 100%;
+	}
+
+	.banner-text {
+		box-sizing: border-box;
+		line-height: 1.2;
+		margin: 4% auto;
+		width: 80%;
+	}
+}
+
+
+/* -----------------------------------
+row and text wide
+----------------------------------- */
+
+@media (min-width: 50em) {
+	.row-padding {
+		padding: 3em 0;
+	}
+	.row-padding-large {
+		padding: 4em 0;
+	}
+
+	.banner-text {
+		line-height: 1.3;
+		margin: 4% auto;
+		width: 80%;
+	}
+
+	.intro-text {
+		padding: 5% 0;
+	}
+
+	ul.contact li {
+		font-size: 1.25em;
+	}
+
+	.header-image {
+		border: 6px solid #E914EF;
+		box-sizing: border-box;
+		width: 80%;
+		height: 80%;
+		margin: 20% 0 0 10%;
+		border-radius: 50px 10px 50px 10px;
+	}
+
+}
+
+
+#scroller {
+	box-sizing: border-box;
+	position: relative;
+	height: 150px;
+	width: 460px;
+	overflow: hidden;
+	margin: auto;
+}
+
+#images {
+	box-sizing: border-box;
+	width: 770px;
+}
+
+#images a img {
+	border: 0;
+	position: relative;
+}
+
+img.threeNappyCakes,
+img.underConstruction {
+	display: block;
+	margin: 5% auto;
+	width: 60%;
+	height: 60%;
+}
+
+.aboutmumandbabygifts p {
+	text-align: center;
+	padding: 2% 0;
+	font-weight: bold;
+}
